@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopEase — Boutique en ligne</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><img src="images/logo.svg" alt="" width="32" height="32"><span>ShopEase</span></a>
+    <nav aria-label="Navigation principale">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="index.html#produits">Produits</a></li>
+        <li><a href="index.html#apropos">À propos</a></li>
+        <li><a href="contact.html" >Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Rechercher">&#128269;</button>
+      <a class="icon-btn cart" href="#" aria-label="Panier">&#128722;<span class="badge">0</span></a>
+    </div>
+  </div>
+</header>
+<main>
+  <!-- SECTION ACCUEIL -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="tag">Nouvelle collection</span>
+        <h1>Découvrez<br>Notre Boutique</h1>
+        <p>Des produits tendance et de qualité pour un style unique. Profitez de nos meilleures offres dès maintenant !</p>
+        <a class="btn" href="#produits">Voir les produits &rarr;</a>
+      </div>
+      <div class="hero-visual"><img src="images/hero.svg" alt="Nouvelle collection ShopEase"><div class="promo">Jusqu'à<strong>-50%</strong></div></div>
+    </div>
+  </section>
+
+  <!-- CATÉGORIES -->
+  <section class="section container" id="categories">
+    <h2 class="section-title">Nos Catégories</h2>
+    <div class="grid-row">
+      <a class="card category" href="#produits"><img src="images/cat-vetements.svg" alt="Vêtements"><span class="cat-label"><strong>Vêtements</strong><small>Découvrir &rarr;</small></span></a>
+      <a class="card category" href="#produits"><img src="images/cat-chaussures.svg" alt="Chaussures"><span class="cat-label"><strong>Chaussures</strong><small>Découvrir &rarr;</small></span></a>
+      <a class="card category" href="#produits"><img src="images/cat-accessoires.svg" alt="Accessoires"><span class="cat-label"><strong>Accessoires</strong><small>Découvrir &rarr;</small></span></a>
+    </div>
+  </section>
+
+  <!-- PRODUITS -->
+  <section class="section container" id="produits">
+    <h2 class="section-title">Nos Produits</h2>
+    <div class="grid-row products">
+      <article class="card product">
+        <div class="product-img"><img src="images/pull.svg" alt="Pull en laine"><button class="fav" aria-label="Ajouter aux favoris">&#9825;</button></div>
+        <div class="product-info"><div><h3>Pull en laine</h3><p class="desc">Qualité premium, style intemporel.</p><p class="price">49,90 €</p></div><button class="add" aria-label="Ajouter Pull en laine au panier">&#128722;</button></div>
+      </article>
+      <article class="card product">
+        <div class="product-img"><img src="images/baskets.svg" alt="Baskets blanches"><button class="fav" aria-label="Ajouter aux favoris">&#9825;</button></div>
+        <div class="product-info"><div><h3>Baskets blanches</h3><p class="desc">Qualité premium, style intemporel.</p><p class="price">59,90 €</p></div><button class="add" aria-label="Ajouter Baskets blanches au panier">&#128722;</button></div>
+      </article>
+      <article class="card product">
+        <div class="product-img"><img src="images/sac.svg" alt="Sac à main"><button class="fav" aria-label="Ajouter aux favoris">&#9825;</button></div>
+        <div class="product-info"><div><h3>Sac à main</h3><p class="desc">Qualité premium, style intemporel.</p><p class="price">79,90 €</p></div><button class="add" aria-label="Ajouter Sac à main au panier">&#128722;</button></div>
+      </article>
+      <article class="card product">
+        <div class="product-img"><img src="images/lunettes.svg" alt="Lunettes de soleil"><button class="fav" aria-label="Ajouter aux favoris">&#9825;</button></div>
+        <div class="product-info"><div><h3>Lunettes de soleil</h3><p class="desc">Qualité premium, style intemporel.</p><p class="price">39,90 €</p></div><button class="add" aria-label="Ajouter Lunettes de soleil au panier">&#128722;</button></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section class="section container about" id="apropos">
+    <img src="images/about.svg" alt="Boutique ShopEase">
+    <div class="about-text">
+      <h2>À propos de notre boutique</h2>
+      <p>Chez ShopEase, nous croyons que la mode et le style doivent être accessibles à tous. Notre boutique propose une large sélection de vêtements, chaussures et accessoires de qualité, soigneusement choisis pour répondre à vos besoins et à vos envies.</p>
+      <a class="btn" href="contact.html">En savoir plus &rarr;</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col brand">
+      <a class="logo" href="index.html"><img src="images/logo.svg" alt="" width="32" height="32"><span>ShopEase</span></a>
+      <p>Votre boutique en ligne pour des produits tendance et de qualité.</p>
+      <div class="socials">
+        <a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">in</a><a href="#" aria-label="Pinterest">p</a><a href="#" aria-label="TikTok">t</a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Liens rapides</h4><a href="index.html">Accueil</a><a href="index.html#produits">Produits</a><a href="index.html#apropos">À propos</a><a href="contact.html">Contact</a></div>
+    <div class="footer-col"><h4>Aide</h4><a href="#">Livraison</a><a href="#">Retours</a><a href="#">FAQ</a><a href="#">Conditions d'utilisation</a></div>
+    <div class="footer-col"><h4>Nous contacter</h4><p>contact@shopease.com</p><p>+33 6 12 34 56 78</p><p>123 Rue de la Mode, Paris, France</p></div>
+  </div>
+  <p class="copyright">&copy; 2026 ShopEase. Tous droits réservés.</p>
+</footer>
+</body>
+</html>
